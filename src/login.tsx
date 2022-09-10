@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import './index.css';
+
 import LoginForm from './loginform';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+const logins = ReactDOM.createRoot(
+  document.getElementById('logins') as HTMLElement
 );
-root.render(
+logins.render(
   <React.StrictMode>
     <LoginForm />
   </React.StrictMode>
 );
+
